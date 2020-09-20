@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App01_ConsultarCep.MainPage">
+
+    <StackLayout 
+        BackgroundColor="#FFBF00"
+        Padding="30"
+        Spacing="30">
+        
+        <Image 
+            Source="Logo.png"
+            x:Name="Logo"/>
+        
+        <Entry 
+            Placeholder="Digite o cep"
+            PlaceholderColor="#FFBF00"
+            BackgroundColor="#FFFFFF"
+            x:Name="CEP"
+            TextColor="Black"/>
+        
+        <Button 
+            Text="Buscar CEP"
+            TextColor="#FFFFFF"
+            BackgroundColor="#00416b"
+            x:Name="BOTAO"/>
+        
+        <Label 
+            Text=""
+            VerticalOptions="Center"
+            HorizontalOptions="Center" 
+            x:Name="RESULTADO"/>
+    </StackLayout>
+
+</ContentPage>
